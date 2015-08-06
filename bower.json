@@ -1,0 +1,31 @@
+{
+  "name": "test_test",
+  "version": "0.0.1",
+  "authors": [
+    "Yevgen Bushuyev <yevgen.bushuyev@gmail.com>"
+  ],
+  "main": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "1.x",
+    "traceur-runtime": "0.0.x",
+    "system.js": "0.x",
+    "webcomponentsjs": "0.x",
+    "iron-ajax": "polymerelements/iron-ajax#1.x",
+    "paper-button": "polymerelements/paper-button#1.x",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#1.x",
+    "paper-input": "PolymerElements/paper-input#1.x",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#1.x",
+    "iron-signals": "PolymerElements/iron-signals#1.X",
+    "normalize.css": "3.x",
+    "bootstrap": "3.x",
+    "paper-header-panel": "PolymerElements/paper-header-panel#1.x",
+    "paper-toolbar": "PolymerElements/paper-toolbar#1.x"
+  }
+}

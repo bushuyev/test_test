@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="./bower_components/traceur-runtime/traceur-runtime.js"></script>
+    <script src="extension-register.js"></script>
+
+    <!-- for SCRIPT5009: 'URLPolyfill' is undefined in IE11-->
+    <script src="./bower_components/system.js/dist/system-polyfills.js"></script>
+
+    <script src="./bower_components/system.js/dist/system-register-only.js"></script>
+    <script src="./bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+    <link rel="import" href="./bower_components/polymer/polymer.html">
+
+    <link rel="import" href="elements/my-test.html">
+
+</head>
+<body>
+
+<my-test></my-test>
+</body>
+</html>

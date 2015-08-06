@@ -1,0 +1,13 @@
+<dom-module id="my-test">
+    <template>
+            hello <span>{{user.name}}</span>
+    </template>
+    <script>
+       System.import('elements/my-test.js');
+//       Doesn't help
+//        System.import('elements/my-test.js').then(function(val){
+//            console.log('hello done');
+//            Polymer(val.Elt);
+//        });
+    </script>
+</dom-module>
